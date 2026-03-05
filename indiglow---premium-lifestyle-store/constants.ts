@@ -1,0 +1,42 @@
+
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  // Electronics
+  { id: 'e1', name: 'GlowPods Wireless Buds', description: 'Crystal clear acoustics with a pocket-friendly price tag.', price: 799, category: 'Electronics', image: 'https://m.media-amazon.com/images/I/61cRh7mPd+L._AC_UF1000,1000_QL80_.jpg', rating: 4.8 },
+  { id: 'e2', name: 'IndiFit Smart Band', description: 'Your health companion with an vibrant OLED display.', price: 1499, category: 'Electronics', image: 'https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/27465396/2024/2/9/c2476ffb-d314-42f1-8899-a61e4f29f33d1707476429339FitbitCharge6CoralChampagneGoldAlluminium1.jpg', rating: 4.7 },
+  { id: 'e3', name: 'PowerJet 10K Mini', description: 'Ultra-portable power bank for your daily commute.', price: 499, category: 'Electronics', image: 'https://5.imimg.com/data5/SELLER/Default/2025/12/564491074/SU/DZ/TN/3983433/portronics-luxcell-wireless-mini-10k-10000mah-15w-magnetic-wireless-fast-charging-nano-power-bank.jpg', rating: 4.5 },
+  { id: 'e4', name: 'Swift Click Silent Mouse', description: 'Work in silence with our ergonomic wireless mouse.', price: 299, category: 'Electronics', image: 'https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/235087_0_gk4wvg.png', rating: 4.6 },
+  { id: 'e5', name: 'Studio One Over-Ear', description: 'Deep bass and plush comfort for long listening sessions.', price: 1999, category: 'Electronics', image: 'https://m.media-amazon.com/images/I/71+S-eIS3aL.jpg', rating: 4.9 },
+  { id: 'e6', name: 'GlowBass Nano Speaker', description: 'Small size, massive sound. Bluetooth 5.2 enabled.', price: 899, category: 'Electronics', image: 'https://m.media-amazon.com/images/I/61yLJJ5-XFL._AC_UF1000,1000_QL80_.jpg', rating: 4.4 },
+  { id: 'e7', name: 'Vision Lite Web Cam', description: 'Perfect for student calls and home office setups.', price: 1299, category: 'Electronics', image: 'https://www.jpltele.com/wp-content/uploads/2022/07/vision-access-left-1k.png', rating: 4.3 },
+  { id: 'e8', name: 'Nova K-1 Lite Keyboard', description: 'Mechanical feel with RGB lighting in a compact layout.', price: 1199, category: 'Electronics', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSirjqo7Abpv7ddFZTZut7Abf9qEWOLCoN9Jw&s', rating: 4.8 },
+
+  // Clothing
+  { id: 'c1', name: 'Daily Craft Cotton Kurta', description: 'Comfortable everyday wear crafted from breathable cotton.', price: 599, category: 'Clothing', image: 'https://imagescdn.jaypore.com/img/app/product/3/39597713-11667064.jpg?w=500&auto=format', rating: 4.6 },
+  { id: 'c2', name: 'Classic Silk Border Saree', description: 'Affordable elegance for festive and family occasions.', price: 2499, category: 'Clothing', image: 'https://i.pinimg.com/1200x/ef/0e/e6/ef0ee6586c644cc3da179fe97d0b8492.jpg', rating: 4.9 },
+  { id: 'c3', name: 'Urban Fit Blue Denims', description: 'The perfect pair of jeans for every urban explorer.', price: 899, category: 'Clothing', image: 'https://greenfibre.com/cdn/shop/files/9VU6_1.jpg?v=1718284406', rating: 4.4 },
+  { id: 'c4', name: 'Essential Solid Tee', description: 'Premium feel cotton t-shirt for your basic wardrobe.', price: 249, category: 'Clothing', image: 'https://www.bushirt.in/cdn/shop/files/BushirtSolidT-Shirt-6_1e3eeae3-1e26-4efe-8d5d-98ecd7530ac1.jpg?v=1727863276&width=1080', rating: 4.2 },
+  { id: 'c5', name: 'Glow Ethnic Anarkali Suit', description: 'Beautiful ethnic silhouette at a budget-friendly price.', price: 1299, category: 'Clothing', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhWXA50rGk2odCDxlm4KUUM9ljt3bXbkZmw&s', rating: 4.8 },
+  { id: 'c6', name: 'Metro Formal White Shirt', description: 'Sharp and clean white shirt for office or events.', price: 649, category: 'Clothing', image: 'https://www.urbanofashion.com/cdn/shop/files/shirtsmocregfs-06-white.jpg?v=1737792670&width=533', rating: 4.5 },
+  { id: 'c7', name: 'City Puffer Light Jacket', description: 'Lightweight warmth for mild Indian winters.', price: 999, category: 'Clothing', image: 'https://ae01.alicdn.com/kf/Sfee37d80a4654cb9b7dc47e287a1f40e4.jpg', rating: 4.7 },
+  { id: 'c8', name: 'Relaxed Plaid Flannel', description: 'Cozy and casual flannel shirt for weekend vibes.', price: 549, category: 'Clothing', image: 'https://dfcdn.defacto.com.tr/2/Z0639AZ_24AU_BK81_01_02.jpg', rating: 4.3 },
+
+  // Shoes
+  { id: 's1', name: 'CloudWalk Running Lite', description: 'Super lightweight shoes for your morning jog.', price: 1199, category: 'Shoes', image: 'https://m.media-amazon.com/images/I/61p9zcA+OhL._AC_UY1000_.jpg', rating: 4.7 },
+  { id: 's2', name: 'Tan Suede Daily Loafers', description: 'Smart-casual loafers that go with anything.', price: 999, category: 'Shoes', image: 'https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/27845830/2024/2/26/9e6b17c2-73de-4757-980b-8a74cd070dcb1708925509722MastHarbourMenColourblockedSuedeLoafers1.jpg', rating: 4.5 },
+  { id: 's3', name: 'Simple Ethnic Mojauris', description: 'Traditional footwear with a soft inner lining.', price: 499, category: 'Shoes', image: 'https://jmlooks.com/cdn/shop/files/JT-1-White_2_801a80f3-8856-4e7f-bea1-10a3e0b65aa9.jpg?v=1752156427', rating: 4.4 },
+  { id: 's4', name: 'Street Canvas Sneakers', description: 'The ultimate casual sneaker for everyday college wear.', price: 699, category: 'Shoes', image: 'https://images.meesho.com/images/products/564041099/r87fe_512.webp?width=512', rating: 4.2 },
+  { id: 's5', name: 'Classic Derby Formal', description: 'Professional look at an unbelievable value.', price: 1299, category: 'Shoes', image: 'https://rukminim2.flixcart.com/image/480/640/xif0q/shoe/m/e/n/7-klak-8615-brown-7-killer-brown-original-imahfhnweqbrcjky.jpeg?q=90', rating: 4.8 },
+  { id: 's6', name: 'Adventure High Hikers', description: 'Rugged grip for your weekend outdoor trips.', price: 2199, category: 'Shoes', image: 'https://www.outsidesports.co.nz/cdn/shop/articles/the-key-differences-between-hiking-boots-hiking-shoes-and-trail-running-shoes-outside-sports_4fa244d7-5167-4d05-97a9-b5bac72cf13b_2048x.jpg?v=1729641095', rating: 4.6 },
+  { id: 's7', name: 'Velvet Evening Pumps', description: 'Step out in style with our elegant party heels.', price: 1199, category: 'Shoes', image: 'https://di2ponv0v5otw.cloudfront.net/posts/2022/11/19/63798c0832c1dce9e6f6c568/m_63798c2a81078a59e5441d81.jpg', rating: 4.3 },
+
+  // Accessories
+  { id: 'a1', name: 'Slim Fold Leather Wallet', description: 'Genuine leather wallet that fits easily in any pocket.', price: 399, category: 'Accessories', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTN-y-2V8xGgDoGiRe4JOU_g_u8Jc-GdY63HB9Ox5viOYSv_8Yx_vbuM1V0AT6yIri2ik_MZY5r0LTvPJA4GH84RQ1lGvMeT806lgNX2oY', rating: 4.5 },
+  { id: 'a2', name: 'Retro Wayfarer Shades', description: 'Classic look with full UV protection.', price: 349, category: 'Accessories', image: 'https://m.media-amazon.com/images/I/31NvXL-aMrL._AC_UY1100_.jpg', rating: 4.7 },
+  { id: 'a3', name: 'Modern Link Silver Chain', description: 'Sleek silver-finish chain for a modern accessory.', price: 299, category: 'Accessories', image: 'https://modernseries.in/cdn/shop/files/IMG_COM_20230721_1911_10_82658_7b17f343-d1a7-456c-8960-a6dcd79d828e.jpg?v=1704277589', rating: 4.9 },
+  { id: 'a4', name: 'Commuter Daily Backpack', description: 'Practical design with multiple storage pockets.', price: 799, category: 'Accessories', image: 'https://rukminim2.flixcart.com/image/480/640/xif0q/backpack/1/5/b/18-slpashprof-daily-commuter-office-school-college-business-original-imagw3nagrsfggg8.jpeg?q=90', rating: 4.6 },
+  { id: 'a5', name: 'Stretch Yoga Strap', description: 'Durable strap to help with your flexibility goals.', price: 149, category: 'Accessories', image: 'https://images-cdn.ubuy.com.sa/67d3f871632acb01b553a4c7-yoga-strap-for-stretching-8-loops.jpg', rating: 4.1 },
+  { id: 'a6', name: 'Glow Hydro Flask 750ml', description: 'Stainless steel bottle to keep you hydrated.', price: 449, category: 'Accessories', image: 'https://m.media-amazon.com/images/I/61ZD6GyQsuL._AC_UF894,1000_QL80_.jpg', rating: 4.4 },
+  { id: 'a7', name: 'Soft Knit Winter Scarf', description: 'A cozy addition to your winter outfit.', price: 199, category: 'Accessories', image: 'https://m.media-amazon.com/images/I/71eyK3sExeL._AC_UY1100_.jpg', rating: 4.9 },
+];
